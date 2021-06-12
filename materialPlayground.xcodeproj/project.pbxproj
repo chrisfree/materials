@@ -13,6 +13,8 @@
 		078BD00A2673CDCC002D66EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 078BD0092673CDCC002D66EC /* Preview Assets.xcassets */; };
 		078BD0152673CDCC002D66EC /* materialPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078BD0142673CDCC002D66EC /* materialPlaygroundTests.swift */; };
 		078BD0202673CDCC002D66EC /* materialPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078BD01F2673CDCC002D66EC /* materialPlaygroundUITests.swift */; };
+		07AD9C8E267440E1006593C8 /* materialExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AD9C8D267440E1006593C8 /* materialExample.swift */; };
+		07C9EDA32673D465006D7826 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C9EDA22673D465006D7826 /* test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		078BD01B2673CDCC002D66EC /* materialPlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = materialPlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		078BD01F2673CDCC002D66EC /* materialPlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = materialPlaygroundUITests.swift; sourceTree = "<group>"; };
 		078BD0212673CDCC002D66EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07AD9C8D267440E1006593C8 /* materialExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = materialExample.swift; sourceTree = "<group>"; };
+		07C9EDA22673D465006D7826 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				078BD0022673CDCB002D66EC /* materialPlaygroundApp.swift */,
 				078BD0042673CDCB002D66EC /* ContentView.swift */,
+				07AD9C8D267440E1006593C8 /* materialExample.swift */,
+				07C9EDA22673D465006D7826 /* test.swift */,
 				078BD0062673CDCC002D66EC /* Assets.xcassets */,
 				078BD00B2673CDCC002D66EC /* Info.plist */,
 				078BD0082673CDCC002D66EC /* Preview Content */,
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				078BD0052673CDCB002D66EC /* ContentView.swift in Sources */,
+				07C9EDA32673D465006D7826 /* test.swift in Sources */,
 				078BD0032673CDCB002D66EC /* materialPlaygroundApp.swift in Sources */,
+				07AD9C8E267440E1006593C8 /* materialExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +430,7 @@
 				DEVELOPMENT_TEAM = AV5SY8KNA4;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = materialPlayground/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -444,7 +452,7 @@
 				DEVELOPMENT_TEAM = AV5SY8KNA4;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = materialPlayground/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
