@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     @State var alternateGradient = false
     
-    @State var defaultColors: [Color] = [.orange, .red, .pink]
+    @State var defaultColors: [Color] = [.pink, .red, .orange]
     @State var alternateColors: [Color] = [.pink, .purple, .blue]
     
     var body: some View {
@@ -23,8 +23,8 @@ struct ContentView: View {
                 
                 ScrollView {
                     VStack(spacing: 20) {
-                        materialExample(name: "Thin", materialStyle: .thinMaterial)
                         materialExample(name: "UltraThin", materialStyle: .ultraThinMaterial)
+                        materialExample(name: "Thin", materialStyle: .thinMaterial)
                         materialExample(name: "Regular", materialStyle: .regularMaterial)
                         materialExample(name: "Thick", materialStyle: .thickMaterial)
                         materialExample(name: "UltraThick", materialStyle: .ultraThickMaterial)
